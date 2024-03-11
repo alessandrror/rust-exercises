@@ -6,7 +6,7 @@
 // I AM NOT DONE
 
 fn main() {
-  call_me(5);
+  call_me();
 }
 
 fn call_me(num: u32) {
@@ -14,5 +14,3 @@ fn call_me(num: u32) {
       println!("Ring! Call number {}", i + 1);
   }
 }
-
-// We must past the parameter from a function

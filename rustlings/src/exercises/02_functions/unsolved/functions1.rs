@@ -8,9 +8,3 @@
 fn main() {
   call_me();
 }
-
-fn call_me() {
-  println!("Hello world from another function!");
-}
-
-// We can call a function from another function

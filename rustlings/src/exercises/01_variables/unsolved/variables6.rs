@@ -5,9 +5,7 @@
 
 // I AM NOT DONE
 
-const NUMBER: i8 = 3;
+const NUMBER = 3;
 fn main() {
     println!("Number {}", NUMBER);
 }
-
-// In Rust when we declare a variable we MUST add a type annotation

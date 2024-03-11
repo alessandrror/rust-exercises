@@ -8,9 +8,6 @@
 fn main() {
   let number = "T-H-R-E-E"; // don't change this line
   println!("Spell a Number : {}", number);
-  let number = 3; // don't rename this variable
+  number = 3; // don't rename this variable
   println!("Number plus two is : {}", number + 2);
 }
-
-// Normally you can't reinitialize a variable once it is initialized.
-// Rust let us to do it, this is called "Shadowing"

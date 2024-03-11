@@ -8,8 +8,6 @@
 // I AM NOT DONE
 
 fn main() {
-  let x = 5;
+  x = 5;
   println!("x has the value {}", x);
 }
-
-// Need to get the "let" before x to declare the variable
